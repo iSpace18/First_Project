@@ -192,7 +192,7 @@ div.texts {
   left: 24px;
   position: relative;
 }
-.text_1 {
+p.text_1 {
   width: 135px;
   height: 54px;
   top: 71px;
@@ -205,7 +205,7 @@ div.texts {
   text-align: left;
   position: relative;
 }
-.text_2 {
+p.text_2 {
   width: 758px;
   height: 108px;
   top: 147px;
@@ -218,7 +218,7 @@ div.texts {
   letter-spacing: 0em;
   text-align: left;
 }
-.text_3 {
+p.text_3 {
   width: 762px;
   height: 72px;
   top: 200px;
@@ -253,6 +253,7 @@ div.texts {
   position: relative;
 }
 @media screen and (max-width: 430px) {
+
   header {
     width: 430px;
     height: 74px;
@@ -441,7 +442,7 @@ img.vkontakte{
 }
 
   }
-  p.text_1{
+  .text_1{
 
     width: 101px;
 height: 24px;
@@ -457,7 +458,7 @@ text-align: left;
 }
 
   
-  p.text_2{
+  .text_2{
 
     width: 342px;
 height: 48px;
@@ -470,7 +471,7 @@ line-height: 16px;
 letter-spacing: 0em;
 text-align: left;
   }
-  p.text_3{
+  .text_3{
 
 width: 345px;
 height: 32px;
@@ -486,8 +487,6 @@ text-align: left;
 
 
   }
-  
-
   @media screen and (max-width: 375px) {
     header {
       width: 375px;
@@ -718,10 +717,4 @@ text-align: left;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
-  
-  
-  
-    }
-    
-  
-  
+    }  
